@@ -57,6 +57,7 @@ if __name__ == "__main__":
     plt.xlabel('Average Price_in_Lakhs')
     plt.ylabel('City (Encoded)')
     plt.tight_layout()
+    plt.xticks(rotation=45, fontsize=7)
     plt.savefig('visuals/avg_price_by_state_city.png', bbox_inches='tight')
     plt.show()
     plt.close()
