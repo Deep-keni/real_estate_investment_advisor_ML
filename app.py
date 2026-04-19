@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
 from src.predict import predict_investment, predict_price
 
 st.title("🏠 Real Estate Investment Advisor")
