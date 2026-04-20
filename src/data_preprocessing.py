@@ -4,7 +4,7 @@ import os
 from sklearn.preprocessing import OneHotEncoder, StandardScaler , OrdinalEncoder , LabelEncoder
 
 def data_load():
-    housing_df = pd.read_csv('data\india_housing_prices.csv')
+    housing_df = pd.read_csv(r'data\raw_data\india_housing_prices.csv')
     print(housing_df.shape)           # checking the shape of the dataset
     print(housing_df.head(5))           # viewing the dataset
     print(housing_df.info())            # we can see from the output that the datatypes are present in proper format 
